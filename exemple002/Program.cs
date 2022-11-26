@@ -5,8 +5,8 @@ Console.WriteLine("Введите второе число ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a>b) 
 {
-   Console.WriteLine($"max number {a} min number {b}");
+   Console.WriteLine($"число {a} большее, число {b} меньшее");
 }
 else
-{ Console.WriteLine($"max number {b} min number {a}");
+{ Console.WriteLine($"число {b} болшее, число {a} меньшее");
 }
